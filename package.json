@@ -1,0 +1,43 @@
+{
+  "name": "githoogle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "cross-env NODE_ENV=production PORT=$PORT node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/styles": "^4.1.1",
+    "axios": "^0.19.0",
+    "camelcase-keys-deep": "^0.1.0",
+    "cross-env": "^5.2.0",
+    "date-fns": "^1.30.1",
+    "decamelize-keys-deep": "^0.1.1",
+    "express": "^4.17.1",
+    "lodash.debounce": "^4.0.8",
+    "next": "^8.1.0",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
+    "proptypes": "^1.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-uid": "^2.2.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.3.1",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8",
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
+}
